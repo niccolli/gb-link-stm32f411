@@ -545,9 +545,9 @@ main(void)
 
 	clock_setup();
 	gpio_setup();
-	//usart_setup(115200);
+	usart_setup(115200);
 	//usart_setup(1152000);
-	usart_setup(1000000);
+	//usart_setup(1000000);
 	//usart_send_dma_setup();
 	//usart_recv_dma_setup();
 
